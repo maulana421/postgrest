@@ -37,6 +37,7 @@
                             <td><?= $data['nama'];?></td>
                             <td><?= $data['prodi'];?></td>
                             <td>
+                                <a href="detail.php?id=<?= $row['id']; ?>" class="btn btn-secondary">Detail</a>
                                 <a href="edit.php?id=<?= $data['id']; ?>" class="btn btn-warning">Edit</a>
                                 <a href="delete.php?id=<?= $data['id']; ?>" class="btn btn-danger">Hapus</a>
                             </td>
